@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { Service } from "src/app/service.model";
+import { Event } from "src/app/event.model";
 
 @Component({
   selector: 'app-main-dashb',
@@ -33,4 +33,25 @@ export class MainDashboardComponent {
   }
 
 
+  
+  events: Event[] = [
+    {
+      id: '1',
+      image: '',
+      title: 'Lorem',
+      description: 'bla bla bla bla bla'
+    },
+    {
+      id: '2',
+      image: '',
+      title: 'Ipsum',
+      description: 'bla bla bla bla bla 2'
+    },
+    {
+      id: '3',
+      image: '',
+      title: 'Gotten',
+      description: 'bla bla bla bla bla 3'
+    },
+  ]
 }
