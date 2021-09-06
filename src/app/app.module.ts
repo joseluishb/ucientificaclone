@@ -11,12 +11,15 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 import { HeaderComponent } from './components/layout/header.component';
 import { NavLeftComponent } from './components/layout/nav-left.component';
 import { MainDashboardComponent } from './components/dashboard/main.component';
+import { ServiceComponent } from './components/dashboard/service.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     NavLeftComponent,
     MainDashboardComponent,
+    ServiceComponent,
   ],
   imports: [
     BrowserModule,

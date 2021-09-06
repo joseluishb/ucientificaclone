@@ -11,18 +11,18 @@
 
     <div class="card-deck">
       <div class="card">
-        <div class="card-body">
-          <p class="card-text">serv1</p>
+        <div class="card-body"> 
+          <app-service [service] = "servicesSections.serviceBiblio"></app-service>          
         </div>
       </div>
       <div class="card">
         <div class="card-body">
-          <p class="card-text">serv2</p>
+          <app-service [service]="servicesSections.serviceBolsa"></app-service>
         </div>
       </div>
       <div class="card">
         <div class="card-body">
-          <p class="card-text">Tserv3</p>
+          <app-service [service]="servicesSections.serviceCorreo"></app-service>
         </div>
       </div>
     </div>
@@ -60,9 +60,9 @@
       </div>
     </div>
 
-      <div class="card">
+      <div class="card mt-4">
         <div class="card-body">
-          <p class="card-text">Tserv4</p>
+          <app-service [service]="servicesSections.serviceTutoriales"></app-service>
         </div>
       </div>
 
