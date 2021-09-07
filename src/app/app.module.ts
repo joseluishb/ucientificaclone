@@ -13,7 +13,7 @@ import { NavLeftComponent } from './components/layout/nav-left.component';
 import { MainDashboardComponent } from './components/dashboard/main.component';
 import { ServiceComponent } from './components/dashboard/service.component';
 import { EventComponent } from './components/dashboard/event.component';
-
+import { ScheduleComponent } from './components/dashboard/schedule.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +23,7 @@ import { EventComponent } from './components/dashboard/event.component';
     MainDashboardComponent,
     ServiceComponent,
     EventComponent,
+    ScheduleComponent,
   ],
   imports: [
     BrowserModule,
