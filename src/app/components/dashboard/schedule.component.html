@@ -2,20 +2,12 @@
   <div class="card-header">
     <small class="text-muted">Lunes, 6 de setiembre 2021</small>
   </div>
-  <div class="card-body" *ngFor="let scheduleitem of scheduleitems">
-    <h5 class="card-title">{{ scheduleitem.curso }}</h5>
-    <p class="card-text">{{ scheduleitem.seccion }}</p>
-    <p class="card-text">{{ scheduleitem.horario }} hrs</p>
-  </div>
   
-  <div class="card-body">
-    <h5 class="card-title">Realidad Nacional</h5>
-    <p class="card-text">SECCIÓN 22F-TEO</p>
-    <p class="card-text">18:10 - 19:45 hrs</p>
-  </div>
-  <div class="card-body">
+  <app-scheduleitem
+  *ngFor="let scheduleitem of scheduleitems"
+  [scheduleitem] = "scheduleitem">
+  </app-scheduleitem>
 
-  </div>
   <div class="card-footer text-center">
     <a href="http://">Ver Horario</a>
   </div>

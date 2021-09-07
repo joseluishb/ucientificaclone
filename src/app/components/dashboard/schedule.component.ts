@@ -24,5 +24,5 @@ export class ScheduleComponent {
       horario: '19:45 - 21:15',
       fecha: '2021-09-06',
     },
-  ]
+  ];
 }

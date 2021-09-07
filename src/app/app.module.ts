@@ -14,6 +14,7 @@ import { MainDashboardComponent } from './components/dashboard/main.component';
 import { ServiceComponent } from './components/dashboard/service.component';
 import { EventComponent } from './components/dashboard/event.component';
 import { ScheduleComponent } from './components/dashboard/schedule.component';
+import { ScheduleItemComponent } from './components/dashboard/schedule/sheduleitem.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ScheduleComponent } from './components/dashboard/schedule.component';
     ServiceComponent,
     EventComponent,
     ScheduleComponent,
+    ScheduleItemComponent,
   ],
   imports: [
     BrowserModule,

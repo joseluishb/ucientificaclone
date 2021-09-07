@@ -1,32 +1,22 @@
 <div class="row">
   <div class="col-sm-8">
-
     <div class="card mb-4">
       <div class="card-body">
         <h5 class="card-title">Hola</h5>
-        <p class="card-text">Txt</p>
-        
+        <p class="card-text">Txt</p>        
       </div>
     </div>
-
-    <div class="card-deck">
-      <div class="card">
-        <div class="card-body"> 
-          <app-service [service] = "servicesSections.serviceBiblio"></app-service>          
-        </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <app-service [service]="servicesSections.serviceBiblio"></app-service>
       </div>
-      <div class="card">
-        <div class="card-body">
-          <app-service [service]="servicesSections.serviceBolsa"></app-service>
-        </div>
+      <div class="col-sm-4">
+        <app-service [service]="servicesSections.serviceBolsa"></app-service>
       </div>
-      <div class="card">
-        <div class="card-body">
-          <app-service [service]="servicesSections.serviceCorreo"></app-service>
-        </div>
+      <div class="col-sm-4">
+        <app-service [service]="servicesSections.serviceCorreo"></app-service>
       </div>
     </div>
-
     <div class="card mt-4">
       <div class="card-body">
         <h4 class="card-title">Eventos y Noticias</h4>
@@ -36,16 +26,11 @@
         </app-event>  
       </div>
     </div>
-
   </div>
   <div class="col-sm-4">
-      <app-schedule></app-schedule>
-
-      <div class="card mt-4">
-        <div class="card-body">
-          <app-service [service]="servicesSections.serviceTutoriales"></app-service>
-        </div>
-      </div>
-
+    <app-schedule></app-schedule>
+    <div class="mt-4">
+      <app-service [service]="servicesSections.serviceTutoriales"></app-service>
+    </div>
   </div>
 </div>
