@@ -31,9 +31,9 @@ body {
 .sidebar-sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 48px;
+  top: 88px;
   /* Height of navbar */
-  height: calc(100vh - 48px);
+  height: calc(100vh - 88px);
   padding-top: .5rem;
   overflow-x: hidden;
   overflow-y: auto;
@@ -93,4 +93,16 @@ body {
 
 .border-bottom {
   border-bottom: 1px solid #e5e5e5;
+}
+
+.card{
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.125);
+}
+
+.card-text {
+  color: #6f6f6f;
+}
+
+.card-title{
+  margin-bottom: 0.15rem;
 }

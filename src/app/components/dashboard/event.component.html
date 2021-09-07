@@ -1,11 +1,10 @@
-<div class="card">
-  <div class="card-horizontal ">
-    <div class="img-square-wrapper">
-      <img class="" src="http://via.placeholder.com/180x120" alt="Card image cap">
+<div class="row">
+    <div class="col-sm-4">
+      <img class="img-fluid" src="{{ event.image }}" alt="">
     </div>
-    <div class="card-body">
-      <h4 class="card-title">{{ event.title }}</h4>
-      <p class="card-text">{{ event.description }}</p>
-    </div>
-  </div>
+    <div class="col-sm-8">
+      <h4 class="title">{{ event.title }}</h4>
+      <p class="des">{{ event.description }}</p>
+    </div>  
 </div>
+<hr>
