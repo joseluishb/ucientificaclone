@@ -1,5 +1,13 @@
+<ul class="nav flex-column">
+  <app-menuitem 
+          *ngFor="let menuitem of menuitems" 
+        [menuitem]="menuitem">
 
-  <ul class="nav flex-column">
+  </app-menuitem>
+</ul>
+
+
+<!--   <ul class="nav flex-column">
     <li class="nav-item">
       <a class="nav-link active" href="#">
         <fa-icon [icon]="['fas','home']"></fa-icon>
@@ -37,3 +45,4 @@
       </a>
     </li>
   </ul>
+   -->

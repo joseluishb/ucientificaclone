@@ -16,6 +16,7 @@ import { EventComponent } from './components/dashboard/event.component';
 import { ScheduleComponent } from './components/dashboard/schedule.component';
 import { ScheduleItemComponent } from './components/dashboard/schedule/sheduleitem.component';
 import { WelcomeComponent } from './components/dashboard/welcome.component';
+import { MenuItemComponent } from './components/layout/menu/menuitem.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { WelcomeComponent } from './components/dashboard/welcome.component';
     ScheduleComponent,
     ScheduleItemComponent,
     WelcomeComponent,
+    MenuItemComponent
   ],
   imports: [
     BrowserModule,
